@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exploring Events</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa amet atque tempora vero perferendis pariatur deserunt molestias provident dolorum adipisci vitae, quia, voluptas nihil nulla dignissimos officia quas, asperiores odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <p>Quae itaque maxime, magnam a vel in.</p>
+    <p>Perspiciatis, architecto tenetur? Repudiandae alias voluptate non.</p>
+    <!-- <button onmouseover="handleClick()">Click me</button>
+    <button onmouseout="showSomething()">Show me</button> -->
+    <button id="second">click me - 1</button>
+    <button>click me - 2</button>
+    <button id="thirdPerson">click me - 3</button>
+    <script>
+        // function handleClick(){
+        //     document.body.style.backgroundColor = 'cyan';
+        // }
+        // function showSomething(){
+        //     document.body.style.backgroundColor = 'tomato';
+        // }
+        // var secondbtn =  document.getElementById('second');
+        // secondbtn.addEventListener('click',showSomething);
+        // secondbtn.onclick = handleClick;
+        // secondbtn.onclick = function(){
+        //     console.log('second person clicked');
+        // }
+        document.getElementById('thirdPerson').addEventListener('click',function(){
+            document.body.style.color = 'tomato';
+        })
+    </script>
+</body>
+</html>
